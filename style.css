@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Poppins:wght@200&family=Rubik&display=swap');
+
+body {
+  font-family: Manrope, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 145px 0px 0px;
+}
+
+.logo {
+  margin-bottom: 605px;
+  margin-left: 65px;
+}
+
+.logo p {
+  font-family: "Manrope";
+  color: white;
+  font-size: 25px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.signup-form {
+  flex: 1;
+  padding: 0px 75px 40px 55px;
+  margin-bottom: 25px;
+  background-color: #fff1d6;
+  border: 2px solid #594545;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+
+.signup-form h2 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.signup-form label {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 0px 5px 0px 5px;
+  margin-right: 55px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signup-form input[type="date"]{
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+
+}
+
+/* .signup-form input[type="radio"]{
+
+} */
+
+.signup-form .user-type-container {
+  margin-top: 5px;
+}
+
+.signup-form .user-type-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.signup-form .user-type-options {
+  display: flex;
+  gap: 10px;
+}
+
+.signup-form .user-type-options label {
+  display: flex;
+  align-items: center;
+}
+
+.signup-form .user-type-options input[type="radio"] {
+  margin: 0 5px 0 0;
+}
+
+.signup-form input[type="submit"] {
+  background-color: #9E7676;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  margin-top: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Manrope";
+}
+
+.signup-form input[type="submit"]:hover {
+  background-color: #ac8989;
+}

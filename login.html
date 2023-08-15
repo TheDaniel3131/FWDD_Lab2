@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css"> <!-- Link to the common CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> <!-- Link to Font Awesome for icons -->
+    <title>Login | Quizzz</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <p>Quizzz</p>
+        </div>
+        <form action="login_process.php" method="post">
+            <label for="login_email">Email:</label>
+            <div class="input-container">
+                <input type="email" id="login_email" name="login_email" required />
+            </div>
+
+            <label for="login_password">Password:</label>
+            <div class="input-container">
+                <input type="password" id="login_password" name="login_password" required />
+            </div>
+
+            <input type="submit" value="LOGIN" />
+        </form>
+    </div>
+</body>
+</html>

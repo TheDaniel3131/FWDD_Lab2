@@ -1,0 +1,74 @@
+/* Import fonts and reset body styles */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Poppins:wght@200&family=Rubik&display=swap');
+
+body {
+    font-family: Manrope, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 155px 0px 0px;
+}
+
+
+.logo p {
+  font-family: "Manrope";
+  color: black;
+  font-size: 45px;
+}
+
+.login-container {
+    padding: 29px 103px 50px 88px;
+    background-color: #fff1d6;
+    border: 2px solid #594545;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-right: 0px;
+    justify-content: left;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-container input[type="submit"] {
+    font-family: "Manrope";
+    background-color: #9E7676;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #ac8989;
+}
